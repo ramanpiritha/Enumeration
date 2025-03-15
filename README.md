@@ -1,4 +1,4 @@
-# Enumeration
+# Ex.No-03-Enumeration
 Enumeration Techniques
 
 # Explore Google hacking and enumeration 
@@ -32,20 +32,26 @@ Google hacking, also known as Google dorking, is a technique that involves using
 
 site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
 Following searches for all the sites that is in the domain yahoo.com
+![image](https://github.com/user-attachments/assets/848aa6e0-91b6-44fa-b923-81d315278395)
+
 
 filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain yahoo.com
-
+![image](https://github.com/user-attachments/assets/6da6cd53-68a9-466f-942c-e2ada5c18ac5)
 
 
 intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
+![image](https://github.com/user-attachments/assets/bcad8afa-44c6-4b67-beb8-1e87de96e584)
 
 
 inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
+![image](https://github.com/user-attachments/assets/29ddde85-0433-4368-878a-f6415880a258)
 
 intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
+![image](https://github.com/user-attachments/assets/6ddc2dc8-9a9e-4a6c-9b69-45ede23386be)
 
 link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
+![image](https://github.com/user-attachments/assets/24b4e878-e628-4e65-9a86-bc2e55e684a6)
 
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
 
