@@ -53,9 +53,7 @@ intitle: This operator allows you to search for pages that contain specific text
 link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
 ![image](https://github.com/user-attachments/assets/24b4e878-e628-4e65-9a86-bc2e55e684a6)
 
-cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
 
- 
 #DNS Enumeration
 
 
@@ -66,10 +64,7 @@ Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TX
 Perform common SRV Record Enumeration
 Top level domain expansion
 ## OUTPUT:
-
-
-
-
+![WhatsApp Image 2025-03-26 at 8 40 50 PM](https://github.com/user-attachments/assets/d910a65c-75d5-40fe-bd5c-bc2548e180e0)
 
 
 
@@ -86,24 +81,21 @@ Calculate C class domain network ranges and perform whois queries on them (threa
 Perform reverse lookups on netranges (C class or/and whois netranges) (threaded).
 Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
+## Output
+![WhatsApp Image 2025-03-26 at 8 41 27 PM](https://github.com/user-attachments/assets/b4d7d638-bf84-4529-9311-180a9ce66772)
 
 
 ##smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
-
+![image](https://github.com/user-attachments/assets/f4818d00-dc40-4541-a6cc-09f1fb185cbf)
 
 In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
 
 select any username in the first column of the above file and check the same
 
+ ## Output
+  ![image](https://github.com/user-attachments/assets/6845984d-8890-48f8-b7f4-2126c76f243f)
 
-#Telnet for smtp enumeration
-Telnet allows to connect to remote host based on the port no. For smtp port no is 25
-telnet <host address> 25 to connect
-and issue appropriate commands
-  
- ##Output
-  
   
 
 ## nmap –script smtp-enum-users.nse <hostname>
@@ -112,6 +104,7 @@ The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server 
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/792f9d41-7063-4cd1-a2cd-256c8261b53d)
 
 
 ## RESULT:
